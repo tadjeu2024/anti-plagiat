@@ -39,9 +39,9 @@ function DetectionLien() {
                     clearInterval(interval);
                     return 90;
                 }
-                return prev + 10;
+                return prev + 5;
             });
-        }, 1500);
+        }, 700);
 
         try {
             const response = await fetch('https://anti-plagiat.onrender.com/api/check-link', {
