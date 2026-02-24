@@ -44,7 +44,7 @@ function DetectionLien() {
         }, 1500);
 
         try {
-            const response = await fetch('http://localhost:5000/api/check-link', {
+            const response = await fetch('https://anti-plagiat.onrender.com/api/check-link', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
